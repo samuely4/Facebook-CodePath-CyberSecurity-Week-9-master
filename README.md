@@ -14,7 +14,7 @@
  ### GREEN
  > Vulnerability 1: Cross-Site Scripting (XSS)
 - [x] GIF Walkthrough
-  ![picture alt](https://github.com/Samuel665/Week-9/blob/master/green_XSS.gif "green_xss")
+  ![picture alt](https://github.com/samuely4/Facebook-CodePath-CyberSecurity-Week-9-master/blob/master/green_XSS.gif "green_xss")
        
        
 - [x] Brief Overview to recreate the exploit
@@ -23,7 +23,7 @@
 
 > Vulnerability 2: Username Enumeration
 - [x] GIF Walkthrough
-  ![picture alt](https://github.com/Samuel665/Week-9/blob/master/green_userEnum.gif "green_UserEnum")
+  ![picture alt](https://github.com/samuely4/Facebook-CodePath-CyberSecurity-Week-9-master/blob/master/green_userEnum.gif "green_UserEnum")
        
        
 - [x] Brief Overview to recreate the exploit
@@ -34,7 +34,7 @@
  ### BLUE
  > Vulnerability 1: SQL Injection (SQLi)
 - [x] GIF Walkthrough
-  ![picture alt](https://github.com/Samuel665/Week-9/blob/master/blue_sqlHack.gif "blue_sqli")
+  ![picture alt](https://github.com/samuely4/Facebook-CodePath-CyberSecurity-Week-9-master/blob/master/blue_sqlHack.gif "blue_sqli")
        
 - [x] Brief Overview to recreate the exploit
  * By injecting SQL code into the id paremeter, we find that the site is vulnerable to SQL Injection.
@@ -43,7 +43,7 @@
     
  > Vulnerability 2: Session Hijacking
  - [x] GIF Walkthrough
-  ![picture alt](https://github.com/Samuel665/Week-9/blob/master/blue_sessionHack.gif "blue_sessionHack")
+  ![picture alt](https://github.com/samuely4/Facebook-CodePath-CyberSecurity-Week-9-master/blob/master/blue_sessionHack.gif "blue_sessionHack")
        
 - [x] Brief Overview to recreate the exploit
  * By accessing ```hacktools/change_session_id.php``` form while logged in, we can have the current session ID. Now, we can put the session ID we obtained into a non-loggd-in session casuing that session to gain unauthenticated access to the account which was logged in and from which the session ID got hacked.
@@ -53,18 +53,18 @@
 > Vulnerability 1: Cross-Site Request Forgery (CSRF)
  
 - [x] GIF Walkthrough
-  ![picture alt](https://github.com/Samuel665/Week-9/blob/master/red_CRSF.gif "red_CSRF")
+  ![picture alt](https://github.com/samuely4/Facebook-CodePath-CyberSecurity-Week-9-master/blob/master/red_CRSF.gif "red_CSRF")
        
        
 - [x] Brief Overview to recreate the exploit
  * By creating an HTML form, You can edit salesperson's personal data such as their first and last name.
- * NOTE: [link to html form](https://github.com/Samuel665/Week-9/blob/master/red_CSRF.html "link to html form")
+ * NOTE: [link to html form](https://github.com/samuely4/Facebook-CodePath-CyberSecurity-Week-9-master/blob/master/red_CSRF.html "link to html form")
        
        
  > Vulnerability 2: Insecure Direct Object Reference (IDOR)
        
 - [x] GIF Walkthrough
-  ![picture alt](https://github.com/Samuel665/Week-9/blob/master/red_IDOR.gif "red_IDOR")
+  ![picture alt](https://github.com/samuely4/Facebook-CodePath-CyberSecurity-Week-9-master/blob/master/red_IDOR.gif "red_IDOR")
        
 - [x] Brief Overview to recreate the exploit
  * Having logged in as an administrator, you can see salespersons who are not visible to the public. However, by changing the id parameter, you can gain access to this information without being logged in.
